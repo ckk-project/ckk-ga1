@@ -7,6 +7,12 @@ on:
                 default: Hello
                 required: true
                 description: 'Greeting to use'
+            log-level:
+                type: choice
+                options:
+                    - info
+                    - warning
+                    - error
 jobs:
     hello:
         runs-on: ubuntu-latest
