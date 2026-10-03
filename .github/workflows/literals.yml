@@ -1,4 +1,4 @@
-name: Lierals
+name: Literals
 on: push
 jobs:
     print:
